@@ -74,7 +74,7 @@ export default function Header() {
 
     return (
         <>
-            <div className={`Header ${shown ? "" : "hide"} ${opaque ? "opaque" : ""}`}> 
+            <div className={`Header Header-Padding ${shown ? "" : "hide"} ${opaque ? "opaque" : ""}`}> 
                 <div className="HeaderSection desktop">
                     <a className='hover-ul' href="/">About</a>
                     <a className='hover-ul' href="/">Portfolio</a>
@@ -98,10 +98,7 @@ export default function Header() {
                 <div className="MobileNavButtonWrap">
                     <div className="MobileNavHeader">
                     </div>
-                    <MobileNavButton>About</MobileNavButton>
-                    <MobileNavButton>Portfolio</MobileNavButton>
-                    <MobileNavButton>Resume</MobileNavButton>
-                    <MobileNavButton>Games</MobileNavButton>
+                    <MobileNavButton>W.I.P</MobileNavButton>
                 </div>
             </div>
         </>

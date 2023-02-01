@@ -1,3 +1,13 @@
 .About {
-    height: 1000px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.BIG {
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif;
 }

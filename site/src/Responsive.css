@@ -92,4 +92,7 @@
     .Hero-Text-Mobile {
         font-size: 80px !important;
     }
+    .Header-Padding {
+        padding-top: 0px; /* TODO: Make header lowered a bit on mobile */
+    }
 }
