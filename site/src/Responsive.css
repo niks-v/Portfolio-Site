@@ -95,4 +95,7 @@
     .Header-Padding {
         padding-top: 0px; /* TODO: Make header lowered a bit on mobile */
     }
+    .AboutMain .Section {
+        flex-direction: column;
+    }
 }

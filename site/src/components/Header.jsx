@@ -5,7 +5,7 @@ import './Header.css'
 
 function MobileNavButton(props) {
     return (
-        <a href="/">
+        <a href={props.href || "/"} onClick={props.onClick}>
             <div className="MobileNavButton">
                 {props.children}
             </div>
@@ -76,7 +76,7 @@ export default function Header() {
         <>
             <div className={`Header Header-Padding ${shown ? "" : "hide"} ${opaque ? "opaque" : ""}`}> 
                 <div className="HeaderSection desktop">
-                    <a className='hover-ul' href="/">About</a>
+                    <a className='hover-ul' href="#About">About</a>
                     <a className='hover-ul' href="/">Portfolio</a>
                 </div>
                 <div className="HeaderSection Name Mobile-Padding">
@@ -98,7 +98,8 @@ export default function Header() {
                 <div className="MobileNavButtonWrap">
                     <div className="MobileNavHeader">
                     </div>
-                    <MobileNavButton>W.I.P</MobileNavButton>
+                    <MobileNavButton onClick={()=>setShowMobileNav(!showMobileNav)}>W.I.P</MobileNavButton>
+                    <MobileNavButton href="#About" onClick={()=>setShowMobileNav(!showMobileNav)}>About</MobileNavButton>
                 </div>
             </div>
         </>

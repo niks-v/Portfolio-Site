@@ -1,13 +1,53 @@
 .About {
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    width: 100%;
     text-align: center;
+    padding-bottom: 200px;
 }
 
-.BIG {
-    font-size: 100px;
-    font-family:'Times New Roman', Times, serif;
+.ShowcaseWrap {
+    width: 100%;
+}
+
+.LangShowcase {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all .3s ease;
+}
+
+.AboutMain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.AboutMain .Section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.AboutMain .Text {
+    flex: 1;
+    line-height: 20px;
+    font-size: 17px;
+    padding: 40px;
+    color: rgb(20, 20, 20);
+    font-style: italic;
+}
+
+.AboutMain .Photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("../../public/assets/img/Nikolas.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
