@@ -37,8 +37,9 @@
 
 .ProjectWrapper {
     width: 400px;
+    display: inline-block;
+    vertical-align: text-top;
     margin: 20px;
-    display: inline-block
 }
 
 .Project {
