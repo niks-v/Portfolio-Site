@@ -1,22 +1,12 @@
 .About {
     width: 100%;
     text-align: center;
-    padding-bottom: 200px;
-}
-
-.ShowcaseWrap {
-    width: 100%;
 }
 
 .LangShowcase {
     height: 100px;
     width: 100px;
     margin: 20px;
-    display: inline-block;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    transition: all .3s ease;
 }
 
 .AboutMain {

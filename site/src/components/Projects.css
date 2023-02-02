@@ -1,0 +1,54 @@
+.Projects {
+    z-index: 2;
+    width: 100%;
+    background-image: url("../../public/assets/img/htmlcode.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+}
+
+.ProjectText {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: default;
+    transition: all .3s ease;
+    border-radius: 30px;
+    border: 3px solid white inset;
+}
+
+.ProjectText:hover {
+    opacity: 0;
+}
+
+.ProjectTitle {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.ProjectWrapper {
+    width: 400px;
+    margin: 20px;
+    display: inline-block
+}
+
+.Project {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.ProjectsWrap {
+}

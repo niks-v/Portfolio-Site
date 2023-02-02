@@ -7,7 +7,7 @@ function displayLangs() {
     let langs = ["React","JavaScript","CSS","HTML","Python","JQuery","MongoDB","NodeJS","Postgres","Sequelize","SQL"]
     return langs.map(lang => (
             <div
-            className="LangShowcase"
+            className="LangShowcase Showcase"
             style={{backgroundImage: `url(./assets/img/langs/${lang.toLowerCase()}.png)`}}
             ></div>
     ))
@@ -27,8 +27,8 @@ export default function About() {
                     <div className="Photo SectionSplit"></div>
                     <div className="SectionSplit Text">
                         <strong>"</strong>
-                        I am an avid, young and open-minded learner with over 5 years of code-writing
-                        and bug-hunting under my belt. I love tinkering on code and eating pizza (sometimes at the same time).
+                        I am an avid, young and open-minded learner who has done over 5 years of code-writing
+                        and bug-hunting in various languages and frameworks. I love tinkering on code and eating pizza (sometimes at the same time).
                         <strong>"</strong>
                     </div>
                 </div>

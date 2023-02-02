@@ -77,7 +77,7 @@ export default function Header() {
             <div className={`Header Header-Padding ${shown ? "" : "hide"} ${opaque ? "opaque" : ""}`}> 
                 <div className="HeaderSection desktop">
                     <a className='hover-ul' href="#About">About</a>
-                    <a className='hover-ul' href="/">Portfolio</a>
+                    <a className='hover-ul' href="#Projects">Projects</a>
                 </div>
                 <div className="HeaderSection Name Mobile-Padding">
                     <div className={`Sandwich  mobile ${!showMobileNav ? "" : "Cross"}`} onClick={()=>setShowMobileNav(!showMobileNav)}>
@@ -100,6 +100,7 @@ export default function Header() {
                     </div>
                     <MobileNavButton onClick={()=>setShowMobileNav(!showMobileNav)}>W.I.P</MobileNavButton>
                     <MobileNavButton href="#About" onClick={()=>setShowMobileNav(!showMobileNav)}>About</MobileNavButton>
+                    <MobileNavButton href="#Projects" onClick={()=>setShowMobileNav(!showMobileNav)}>Projects</MobileNavButton>
                 </div>
             </div>
         </>

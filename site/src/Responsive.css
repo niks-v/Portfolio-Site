@@ -98,4 +98,7 @@
     .AboutMain .Section {
         flex-direction: column;
     }
+    .ProjectWrapper {
+        max-width: calc(100vw - 40px);
+    }
 }
