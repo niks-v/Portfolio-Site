@@ -1,0 +1,21 @@
+.Footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-direction: column;
+    padding-bottom: 50px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+}
+
+.FooterSplit {
+    display: flex;
+    flex-direction: row;
+}
+
+.FooterSection {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}

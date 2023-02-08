@@ -4,7 +4,14 @@ import './Header.css'
 
 
 function MobileNavButton(props) {
-    return (
+    if(props.newtab) return (
+        <a href={props.href || "/"} onClick={props.onClick} target='_blank' rel='noreferrer'>
+            <div className="MobileNavButton">
+                {props.children}
+            </div>
+        </a>
+    )
+    else return (
         <a href={props.href || "/"} onClick={props.onClick}>
             <div className="MobileNavButton">
                 {props.children}
@@ -89,8 +96,8 @@ export default function Header() {
                     <div className="Sandwich mobile"></div>
                 </div>
                 <div className="HeaderSection desktop">
-                    <a className='hover-ul' href="/">Resume</a>
-                    <a className='hover-ul' href="/">Games</a>
+                    <a className='hover-ul' href="https://rxresu.me/nvadalma/resume" target='_blank' rel="noreferrer">Resume</a>
+                    <a className='hover-ul' href="#Games">Games</a>
                 </div>
             </div>
             <div className={`CloseMobileNav  ${showMobileNav ? "" : "hide"}`} onClick={()=>setShowMobileNav(!showMobileNav)}/>
@@ -98,9 +105,10 @@ export default function Header() {
                 <div className="MobileNavButtonWrap">
                     <div className="MobileNavHeader">
                     </div>
-                    <MobileNavButton onClick={()=>setShowMobileNav(!showMobileNav)}>W.I.P</MobileNavButton>
                     <MobileNavButton href="#About" onClick={()=>setShowMobileNav(!showMobileNav)}>About</MobileNavButton>
                     <MobileNavButton href="#Projects" onClick={()=>setShowMobileNav(!showMobileNav)}>Projects</MobileNavButton>
+                    <MobileNavButton href="https://rxresu.me/nvadalma/resume" newtab onClick={()=>setShowMobileNav(!showMobileNav)}>Resume</MobileNavButton>
+                    <MobileNavButton href="#Games" onClick={()=>setShowMobileNav(!showMobileNav)}>Games</MobileNavButton>
                 </div>
             </div>
         </>

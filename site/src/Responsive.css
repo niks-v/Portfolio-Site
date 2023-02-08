@@ -101,4 +101,7 @@
     .ProjectWrapper {
         max-width: calc(100vw - 40px);
     }
+    .FooterSplit {
+        flex-direction: column !important;
+    }
 }

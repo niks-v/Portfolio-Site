@@ -20,7 +20,7 @@ export default function About() {
             A little about me..
         </div>
 
-        <AnimationOnScroll animateIn='animate__fadeInLeft' animateOut='animate__fadeOutRight'>
+        <AnimationOnScroll animateIn='animate__fadeInLeft'>
             <div className="AboutMain">
                 <div className="Section desktop"></div>
                 <div className="Section">
@@ -36,7 +36,7 @@ export default function About() {
             </div>
         </AnimationOnScroll>
 
-        <AnimationOnScroll animateIn="animate__fadeInLeft" animateOut='animate__fadeOutRight'>
+        <AnimationOnScroll animateIn="animate__fadeIn">
             <div className="ShowcaseWrap">
                 {displayLangs()}
             </div>

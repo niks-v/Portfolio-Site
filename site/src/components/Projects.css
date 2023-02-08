@@ -1,7 +1,7 @@
 .Projects {
     z-index: 2;
     width: 100%;
-    background-image: url("../../public/assets/img/htmlcode.jpg");
+    background-image: url("../../public/assets/img/projects.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,5 +51,13 @@
     border: 1px solid white;
 }
 
-.ProjectsWrap {
+.ProjectDisplay {
+    width: calc(100% - 40px);
+    margin: 20px;
+    display: flex;
+    border-radius: 30px;
+    height: 400px;
+    background-color: white;
 }
+
+.ProjectDisplay {}

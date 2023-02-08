@@ -20,11 +20,11 @@ function Project(props) {
 function Projects() {
   return (
     <div className='Projects' id="Projects">
-        <div className="Title White-Text">
+        <div className="Title">
             Project showcase
         </div>
         <div className="ProjectsWrap">
-            <AnimationOnScroll animateIn='animate__fadeInLeft' animateOut='animate__fadeOutRight'>
+            <AnimationOnScroll animateIn='animate__fadeIn'>
                 <Project img="burgerhub" title="Burger Hub">A project completed using purely HTML and CSS based on an Adobe XD design</Project>
                 <Project img="memphisivy" title="Memphis and Ivy">An ecommerce site for a handbag business</Project>
                 <Project img="oldpersonal" title="Personal Site">The site that I previously used as my personal website</Project>
