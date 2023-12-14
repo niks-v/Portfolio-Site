@@ -27,8 +27,7 @@ export default function About() {
                     <div className="Photo SectionSplit"></div>
                     <div className="SectionSplit Text">
                         <strong>"</strong>
-                        I am an avid, young and open-minded learner who has done over 5 years of code-writing
-                        and bug-hunting in various languages and frameworks. I love tinkering on code and eating pizza (sometimes at the same time).
+                        I love creating and learning. These are the two things that I get out of making websites and web apps.
                         <strong>"</strong>
                     </div>
                 </div>
